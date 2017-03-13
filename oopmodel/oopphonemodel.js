@@ -1,32 +1,32 @@
 module.exports = {
-Phone:function(name,model,os) {	
+Phone : function (name,model,os) {	
 	this.name = name || "General";			
-	this.model = model || "General model"; 	
-	this.os = os || "iOS/Android";  
+	this.model = model || "Gen model"; 	
+	this.os = os || "Android";  
 
-	if (this.name  === 'Gionee' || this.name === "Tecno") { 	
-	  	this.CPU = "MTK Processor";		
+	if (this.name  === 'Gionee' || this.name === 'Tecno') { 	
+	  	this.CPU = "Mediatek Processor";		
 	  	this.isAndroid = true;			
 	  	this.doubleSim = true;			
 	  	this.isIphone = false;			
 	  	this.isCharging = false;		
 	 	this.charge = function() {		
 			this.isCharging = true;		
-		}
+		};
 		this.stopCharge = function() {	
 			this.isCharging = false;	
-		}
+		};
 		this.isPowerOn = false;			
 		this.powerOn = function() {		
 			this.isPowerOn = true;		
-		}
+		};
 		this.powerOff = function() {	
 			this.isPowerOn = false;
-		}
+		};
 	}
 	
-	else {			
-		if (this.os === "iOS") {
+	else if(this.os === 'iOS'){			
+		    
 			this.CPU = "Apple Chipset";		
 		  	this.isAndroid = false;			
 		  	this.isIphone = true;			
@@ -34,35 +34,40 @@ Phone:function(name,model,os) {
 		  	this.isCharging = false;		
 		 	this.charge = function() {		
 				this.isCharging = true;		
-			}
+			};
 			this.stopCharge = function() {	
 				this.isCharging = false;	
-			}
+			};
 			this.isPowerOn = false;			
 			this.powerOn = function() {		
-				this.isPowerOn = true;		
+				this.isPowerOn = true;
+			};	
 			this.powerOff = function() {	
 				this.isPowerOn = false;		
-			}
-		}
-		else if (this.os === "Android") {
-			this.CPU = "SnapDragon Processor";		
+			};
+	}
+		
+	
+		else if (this.os === 'Android') {
+			this.CPU = "Dualcore/Quadcore Processor";		
 		  	this.isAndroid = true;			
 		  	this.doubleSim = false;			
 		  	this.isIphone = false;			
 		  	this.isCharging = false;		
 		 	this.charge = function() {		
-				this.isCharging = true;		
+				this.isCharging = true;	
+		 	};
 			this.stopCharge = function() {	
 				this.isCharging = false;	
-			}
+			};
 			this.isPowerOn = false;			
 			this.powerOn = function() {		
 				this.isPowerOn = true;		
-			}
+			};
 			this.powerOff = function() {	
 				this.isPowerOn = false;		
-			}
+			 };
+		  
 		}
 		else {		
 			this.CPU = "Microsoft Processor/Others";		
@@ -72,19 +77,20 @@ Phone:function(name,model,os) {
 		  	this.isCharging = false;		
 		 	this.charge = function() {		
 				this.isCharging = true;		
-			}
+			};
 			this.stopCharge = function() {	
 				this.isCharging = false;	
-			}
+			};
 			this.isPowerOn = false;			
 			this.powerOn = function() {		
-				this.isPowerOn = true;		
-			}
+				 this.isPowerOn = true;
+			};
+		
 			this.powerOff = function() {	
 				this.isPowerOn = false;		
-			}
+			};
 		}
-	}
-}
 
-}
+	}
+
+}		
