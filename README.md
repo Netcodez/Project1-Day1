@@ -21,5 +21,4 @@ Your code should also address edge cases (invalid input, negative input value, o
 
 
 
-
-YOU ARE TO CHOOSE AN OOP IMPLEMENTATION, THEN WRITE YOUR OWN CODE AND TESTS 
+CHOOSE AN OOP IMPLEMENTATION, THEN WRITE YOUR OWN CODE AND TESTS 
