@@ -1,19 +1,31 @@
 {
-  "name": "projectandela",
+  "name": "project1",
   "version": "1.0.0",
-  "description": "",
+  "description": "object oriented proramming model, a function generating prime numbers, data types function and tests",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
+  "scripts": {
+    "test": "jasmine"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Netcodez/Project1-Day1.git"
+  },
+  "keywords": [
+    "oop",
+    "data",
+    "types",
+    "TDD",
+    "object",
+    "oriented",
+    "programming\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C"
+  ],
+  "author": "Neto Onyiaji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Netcodez/Project1-Day1/issues"
+  },
+  "homepage": "https://github.com/Netcodez/Project1-Day1#readme",
   "dependencies": {
     "jasmine": "^2.5.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
