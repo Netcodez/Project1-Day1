@@ -2,6 +2,12 @@
 dataTypes function, getPrimes  function,  OOP model and tests
 Day 1 Self Clinic
 
+
+To run the test simply use the command npm test in the Node.js environment
+
+
+
+CODING QUESTIONS FOR DAY 1
 Write a function called *dataTypes* to compare and return results, based on the argument supplied to the function. Follow through the test to produce the perfect function that accounts for all expectations.
 For strings, return its length.
 For null or undefined return string ‘no value’
