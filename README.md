@@ -3,7 +3,7 @@ dataTypes function, getPrimes  function,  OOP model and tests
 Day 1 Self Clinic
 
 
-How to run the Program:
+# How to run the Program:
 To run the test first  run the command npm install  in the Node.js command prompt  to have the dependencies installed in your computer
 Then run the command npm test
 
